@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class JConnect{
 
-	public static final String URL="jdbc:mysql://localhost:3306/bookmymovie";
+	public static final String URL="jdbc:mysql://localhost:3306/book";
 	public static final String USR="root";
 	public static final String PWD="root";
 

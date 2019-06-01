@@ -28,7 +28,7 @@ public class User implements Serializable{
 	private String email;
 	
 	@Column(name="USER_PWD")
-	@Size(min = 8, max = 12, message = "Your password must contain between 6 and 12 letters")
+	@Size(min = 8, max = 12, message = "Your password must contain between 8 and 12 letters")
 	private String pwd;
 	
 	@Column(name="USER_CONF")
